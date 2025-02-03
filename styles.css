@@ -15,6 +15,7 @@ img {
     margin-right: auto;
     width: 50%;
     height: auto;
+    border: solid 5px #2F4F4F
 }
 
 h2 {
@@ -25,7 +26,64 @@ h2 {
     margin-top: 50px;
 }
 
+h3 {
+    text-align: center
+}
+
 h1, h2, h3 {
     color: #2F4F4F
 }
 
+.recipe_links {
+    display: block;
+    border: solid black 5px;
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #2F4F4F;
+    
+}
+
+.recipe_links, a {
+    margin: 40px auto;
+    display: block;
+    color:#26F7FD
+}
+
+.home_link {
+    border: solid 5px black;
+    margin: 25px auto;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    background-color: #2F4F4F
+
+}
+
+.home {
+    display: block;
+    margin: 10px;
+    color: #26F7FD
+}
+
+p {
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    border-top: double 5px black;
+    border-bottom: double 5px black
+}
+
+ol {
+    list-style-type: upper-roman
+}
+
+ul {
+    list-style-type: square;
+    
+}
+
+ul, ol {
+    margin: 40px 70px;
+}
